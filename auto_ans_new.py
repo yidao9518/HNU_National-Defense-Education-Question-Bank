@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
 import logging
-# import time
+import time
 
 import get_driver_path
 
@@ -95,8 +95,8 @@ class AutoFiller:
 
     @staticmethod
     def wait():
-        # time.sleep(5)
-        pass
+        time.sleep(5)
+        # pass
 
     def find_question_elements(self):
         """查找题目元素"""
