@@ -8,8 +8,8 @@
    直接执行 `auto_ans_new.py` 文件即可自动填写问卷。可以在AutoFiller.wait()中修改题目等待时间 ，时间过短可能触发人机验证
    ，需要手动验证 （或者在答题时一直挥动鼠标，防止触发人机验证）。
 
-   2. **浏览器支持**  
-      默认支持 Edge 浏览器。如果需使用其他浏览器，请修改 `get_driver_path.py` 文件，并下载对应浏览器驱动。（本程序会自动下载 edge 驱动）
+2. **浏览器支持**  
+   默认支持 Edge 浏览器。如果需使用其他浏览器，请修改 `get_driver_path.py` 文件，并下载对应浏览器驱动。（本程序会自动下载 edge 驱动）
 
 3. **浏览器驱动下载**
     - Edge 驱动：[Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
